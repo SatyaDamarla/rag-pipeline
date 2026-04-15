@@ -1,0 +1,17 @@
+chunking:
+  strategy: recursive
+  chunk_size: 512
+  chunk_overlap: 64
+
+vector_store:
+  type: faiss
+  path: ./data/vector_store
+
+retrieval:
+  top_k: 10        # candidates from vector search
+  top_n: 5         # kept after reranking
+  reranker: local  # "local" (free) or "cohere" (better quality)
+
+generation:
+  model: models/gemini-2.5-flash
+  temperature: 0.0
