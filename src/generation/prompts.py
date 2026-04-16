@@ -1,4 +1,4 @@
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 
 RAG_PROMPT = ChatPromptTemplate.from_messages([
     ("system", """You are a precise, helpful assistant. Answer the user's question

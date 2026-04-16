@@ -1,34 +1,44 @@
 # document loaders
-pymupdf
-python-docx
-beautifulsoup4
-requests
+PyMuPDF==1.24.1
+python-docx==1.1.0
+beautifulsoup4==4.12.3
+requests==2.33.1
 
 # langchain core
-langchain
-langchain-community
-langchain-google-genai
-google-generativeai
+langchain==0.2.17
+langchain-community==0.2.19
+langchain-core==0.2.43
+langchain-openai==0.1.25
+langchain-text-splitters==0.2.4
+langchain-google-genai==4.2.2
 
 # vector stores
-faiss-cpu
-chromadb
+faiss-cpu==1.8.0
+chromadb==0.5.3
 
-# embeddings
-sentence-transformers
+# google AI
+google-generativeai==0.7.2
+
+# embeddings & reranking
+sentence-transformers==3.0.1
+tiktoken==0.7.0
 
 # chunking / NLP
-nltk
+nltk==3.8.1
+
+# evaluation
+ragas==0.1.21
+datasets==4.8.4
 
 # config & utils
-pyyaml
-pydantic
-python-dotenv
+PyYAML==6.0.1
+pydantic==2.12.5
+python-dotenv==1.0.1
 
 # benchmarking
-pandas
-numpy
+pandas==2.2.2
+numpy==1.26.4
 
 # testing
-pytest
-pytest-cov
+pytest==8.2.2
+pytest-cov==5.0.0

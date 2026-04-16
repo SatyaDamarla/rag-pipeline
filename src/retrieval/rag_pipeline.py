@@ -1,3 +1,4 @@
+# src/retrieval/rag_pipeline.py
 import yaml
 from .retriever import Retriever
 from .reranker import LocalReranker, CohereReranker
@@ -22,18 +23,16 @@ class RAGPipeline:
         )
 
         self.generator = RAGGenerator(
-            model=cfg["generation"].get("model", "gpt-4o-mini"),
+            model=cfg["generation"].get("model", "models/gemini-2.5-flash"),
             temperature=cfg["generation"].get("temperature", 0.0),
         )
 
+        self.last_retrieved_docs = []  # stored for eval harness
+
     def query(self, question: str, filter: dict = None) -> dict:
-        # step 1: retrieve
         candidates = self.retriever.retrieve(question, filter=filter)
-
-        # step 2: rerank
         reranked = self.reranker.rerank(question, candidates)
-
-        # step 3: generate
+        self.last_retrieved_docs = reranked  # store for RAGAS
         result = self.generator.generate(question, reranked)
         result["question"] = question
         return result

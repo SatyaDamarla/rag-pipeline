@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is Satya's current job title?",
+    "ground_truth": "AI/ML Engineer at Intuit"
+  },
+  {
+    "question": "What programming languages does Satya know?",
+    "ground_truth": "Python, SQL, Java, and Scala"
+  },
+  {
+    "question": "What cloud platforms has Satya worked with?",
+    "ground_truth": "AWS and Azure"
+  },
+  {
+    "question": "What is Satya's educational background?",
+    "ground_truth": "Bachelor's degree in Electrical Engineering from the JNTU, India"
+  },
+  {
+    "question": "What ML frameworks does Satya use?",
+    "ground_truth": "PyTorch, TensorFlow, scikit-learn, and Hugging Face"
+  }
+]
