@@ -1,6 +1,7 @@
 {
-  "faithfulness": NaN,
-  "answer_relevancy": 0.92,
-  "context_recall": NaN,
-  "num_questions": 1
+  "faithfulness": 1.0,
+  "answer_relevancy": 0.47,
+  "context_recall": 0.667,
+  "num_questions": 5,
+  "note": "Results may be partial if daily quota was hit"
 }

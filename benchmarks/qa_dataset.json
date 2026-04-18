@@ -1,22 +1,34 @@
 [
   {
-    "question": "What is Satya's current job title?",
-    "ground_truth": "AI/ML Engineer at Intuit"
+    "question": "What is Satya's current job title and company?",
+    "ground_truth": "AI/ML Engineer at Intuit in Mountain View, CA, since February 2025"
   },
   {
     "question": "What programming languages does Satya know?",
-    "ground_truth": "Python, SQL, Java, and Scala"
+    "ground_truth": "Python, SQL, PySpark, and C# (.NET APIs, system integration)"
   },
   {
     "question": "What cloud platforms has Satya worked with?",
-    "ground_truth": "AWS and Azure"
+    "ground_truth": "AWS SageMaker, Amazon S3, and Azure Databricks"
   },
   {
     "question": "What is Satya's educational background?",
-    "ground_truth": "Bachelor's degree in Electrical Engineering from the JNTU, India"
+    "ground_truth": "Masters in Information Technology from University Of Central Missouri and Bachelors in Electrical Engineering from Jawaharlal Nehru Technological University, India"
   },
   {
     "question": "What ML frameworks does Satya use?",
-    "ground_truth": "PyTorch, TensorFlow, scikit-learn, and Hugging Face"
+    "ground_truth": "Scikit-learn, XGBoost, TensorFlow, and PyTorch"
+  },
+  {
+    "question": "What vector databases has Satya worked with?",
+    "ground_truth": "Pinecone, FAISS, and Elasticsearch"
+  },
+  {
+    "question": "How many years of experience does Satya have?",
+    "ground_truth": "4 years of experience building and scaling production-grade machine learning and LLM systems"
+  },
+  {
+    "question": "What LLM techniques has Satya used?",
+    "ground_truth": "Prompt Engineering, LangChain, Embeddings, Vector Search, LoRA, and PEFT"
   }
 ]

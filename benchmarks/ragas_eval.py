@@ -42,7 +42,7 @@ def run_eval():
     with open("benchmarks/qa_dataset.json") as f:
         qa_pairs = json.load(f)
 
-    qa_pairs = qa_pairs[:3]
+    qa_pairs = qa_pairs[:5]
 
     print(f"Running eval on {len(qa_pairs)} questions...\n")
 

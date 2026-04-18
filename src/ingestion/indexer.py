@@ -1,5 +1,5 @@
 from typing import List, Literal
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_community.vectorstores import FAISS, Chroma
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
